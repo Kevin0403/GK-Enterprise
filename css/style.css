@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+:root {
+    --main-color: #212529;
+    --text-color: #000000;
+    --hover-color: rgb(0, 0, 0);   
+    --dbg-color: #1C6DD0;
+    --bg-color: #d9dbe1;
+}
+
+
+
+
+
+/* Main Part */
+main{
+    min-height: calc(100vh - 50px);
+    margin-top: 50px;
+}
+
+/*  typeWriter */
+#app{
+    text-align:center;
+    font-size:2em;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-clip:border-box;
+     text-fill-color: transparent;
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+
