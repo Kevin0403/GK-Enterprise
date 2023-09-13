@@ -61,6 +61,8 @@
 .navbar-nav{
     display: inline;
     padding-left: 100px;
+    position: absolute;
+    right: 0%;
 }
 
 .nav-item{
@@ -84,8 +86,8 @@
     display: none;
     color: #212529;
     width: 250px;
-    position: sticky;
-    left: 400px;
+    position: absolute;
+    right: 0px;
     background-color: rgb(195, 196, 196);
     border: var(--main-color) solid 2px;
     border-radius: 0px 0px 10px 10px ;
