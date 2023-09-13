@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+:root {
+    --main-color: #212529;
+    --text-color: #000000;
+    --hover-color: rgb(0, 0, 0);   
+    --dbg-color: #1C6DD0;
+    --bg-color: #d9dbe1;
+}
+
