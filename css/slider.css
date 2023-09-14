@@ -20,15 +20,15 @@
 
 .slider{
 
-    width: 800px;
-    height: 500px;
+    width:100vw;
+    /* height: 500px; */
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides{
     width: 500%;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
 }
 
@@ -42,13 +42,13 @@
 }
 
 .slide img{
-    width: 800px;
-    height: 500px;
+    width: 100vw;
+    /* height: 500px; */
 }
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 100vw;
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -90,7 +90,7 @@
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 800px;
+    width: 100vw;
     /* height: 500px; */
     justify-content: center;
     margin-top: 460px;
