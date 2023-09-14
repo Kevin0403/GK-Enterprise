@@ -15,7 +15,8 @@
 /* Main Part */
 main{
     min-height: calc(100vh - 50px);
-    margin-top: 50px;
+    margin-top: 30px;
+    max-width: 100vw;
 }
 
 /*  typeWriter */

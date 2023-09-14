@@ -22,7 +22,7 @@
 
     width:100vw;
     /* height: 500px; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     overflow: hidden;
 }
 
@@ -48,7 +48,7 @@
 
 .manual-navigation{
     position: absolute;
-    width: 100vw;
+    width: 90vw;
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -94,7 +94,7 @@
     justify-content: center;
     margin-top: 460px; */
     position: absolute;
-    width: 100vw;
+    width: 90vw;
     display: flex;
     /* align-items: center; */
     justify-content: center;

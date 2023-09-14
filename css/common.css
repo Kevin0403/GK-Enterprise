@@ -18,6 +18,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 header {
     position: sticky;
     top: 0px;
