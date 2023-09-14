@@ -88,12 +88,17 @@
 }
 
 .navigation-auto{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     width: 100vw;
-    /* height: 500px; */
     justify-content: center;
-    margin-top: 460px;
+    margin-top: 460px; */
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: -40px;
 }
 
 .navigation-auto div{
