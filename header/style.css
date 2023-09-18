@@ -63,6 +63,7 @@ border-bottom-right-radius: 20rem; */
     height: 40px;
     border: none;
     text-decoration: none;
+    background: none;
 }
 
 
@@ -148,7 +149,7 @@ border-bottom-right-radius: 20rem; */
 
     .navbar-collapse{
         display: inline-block;
-        background-color: var(--bg-color);
+        background :none;
     }
     .navbar-nav{
         padding : 0px;

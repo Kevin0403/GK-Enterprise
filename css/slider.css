@@ -154,8 +154,9 @@
         margin-right: 10px;
     }
     .navigation-auto{
+        margin-top: -4.5vw;
         width:90vw;
-        margin-top:51.75vw;
+        /* margin-top:51.75vw; */
     }
     
 }
