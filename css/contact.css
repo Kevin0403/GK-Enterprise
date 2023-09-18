@@ -40,7 +40,10 @@ body {
 }
 @media screen and (max-width: 767px) {
   .form-main .main-wrapper {
-    width: 90%;
+    max-width: 90%;
+  }
+  .main-wrapper{
+    margin: 0%;
   }
 }
 .form-main .main-wrapper .form-head {
@@ -167,4 +170,8 @@ body {
 .btn-wrap button:hover {
   border: 1px solid #000;
   background: transparent;
+}
+
+.main-wrapper{
+  padding: 10px;
 }
