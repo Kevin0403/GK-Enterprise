@@ -14,7 +14,7 @@ body {
     margin: 0px;
     padding: 0px;
     padding-top: 0px;
-    background: #d9dbe1;
+    background: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,16 +31,7 @@ header {
     height: 50px;
 }
 
-.blur{
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 54px;
-    background-color: var(--bg-color);
-    opacity: 0.99;
-    filter: blur(35px);
-    z-index: 39;
-}
+
 
 /* Whatsapp */
 .whatsapp img{
@@ -69,7 +60,7 @@ footer {
     color: aliceblue;
     justify-content: center;
     min-height: 40px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* position:sticky; */
     /* bottom: 0px; */
 }

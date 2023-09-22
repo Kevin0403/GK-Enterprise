@@ -30,7 +30,7 @@ body {
   padding: 45px;
   width: 40%;
   box-shadow: 0 0 5px 5px #00000020;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
   background-color: #ffffff85;
 }
 @media screen and (max-width: 991px) {

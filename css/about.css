@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px 10px;
+    padding: 100px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 1rem;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.whyus .about-section{
+    background: url(https://img.freepik.com/free-vector/hand-drawn-flat-design-international-trade_23-2149154534.jpg?w=996&t=st=1695322002~exp=1695322602~hmac=9cd80ab3c50a237cad2a60d75fc30fbed7c5a77418c50faf0e58cce38542d7f7) no-repeat right;
+}
+
+.whyus .inner-container{
+    float: left;
+}
+
+.whyus .inner-container{
+    width: 60%;
+    padding: 80px;
+}
+
+/* Services */
+.services{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;    
+}
+
+.container1{
+    min-width: 150px;
+    width: 20%;
+    margin: 15px;
+    /* box-shadow: 5px 5px 5px #565454; */
+    padding: 10px;
+    border-radius: 15px;
+    /* margin-right: 0px; */
+    /* margin-left: 40px; */
+}
+
+
+.container1 div{
+    text-align: center;
+}
+
+
+.container1 img{
+    width: 100px;
+}
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+    .whyus .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
