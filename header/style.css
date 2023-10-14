@@ -22,8 +22,8 @@
     font-size: 20px; 
     background: rgba(0,0,0,.1);
     backdrop-filter:blur(50px);
-    border-bottom-left-radius: 20rem;
-    border-bottom-right-radius: 20rem;
+    /* border-bottom-left-radius: 20rem; */
+    /* border-bottom-right-radius: 20rem; */
 /* position: fixed;
 top: 0;
 left: 0;
