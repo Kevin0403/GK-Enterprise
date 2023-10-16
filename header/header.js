@@ -15,6 +15,7 @@ function showMenu() {
 }
 
 
+
 function showNavbar() {
     var cname = $(".navbar-nav")
     if(!cname.hasClass("navbar-nav-show"))
