@@ -6,7 +6,7 @@
     --text-color: #000000;
     --hover-color: rgb(0, 0, 0);   
     --dbg-color: #1C6DD0;
-    --bg-color: #d9dbe1;
+    --bg-color: #8f9093;
 }
 
 
@@ -41,15 +41,17 @@
 }
 
 .section {
-    padding-top: 0px;
+    padding-top: 10px;
 }
 
 .container h3 {
     font-size: 5rem;
     position: relative;
-    right: 20px;
+    /* right: 20px; */
     display: inline-block;
 }
+
+
 
 .container a {
     text-decoration: none;
@@ -63,16 +65,50 @@ p {
     padding: 10px;
     position: relative;
     /* left: 20px; */
-    max-width: 1000px;
+    max-width: 1200px;
     /* padding-left: 20px; */
 }
 
 
 /* Types */
 
+.types .container h3{
+    font-size: 2rem;
+}
+
+.types .section{
+    /* border: 0px 0px 1px 0px  solid black; */
+    padding: 20px;
+    max-width: 100%;
+}
+            
+.cornfloor{
+    float: right;
+}
+
+.cornstarch{
+    float: left;
+}
+
+.table{
+    font-size: 1.2rem;
+    max-width: 1100px;
+}
+
+.table td{
+    padding: 5px;
+} 
+            
+
 .types h2{
-    width: 100vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* width: calc(100vw-20px); */
+    /* padding: 10px; */
+    text-shadow: 2px 2px #d9dbe1;
     text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+    /* background-color: rgb(207, 207, 207); */
 }
 
 .services{
@@ -105,4 +141,31 @@ p {
 .container1 img{
     width: 80% ;
     border-radius: 10px;
+}
+
+.application .container{
+    /* background-color:darkgrey; */
+}
+.logoapp {
+    /* margin: 10px; */
+    height: 70px;
+    float: left;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.application h4{
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.application p{
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.background {
+    background-color: var(--bg-color);
+    border-radius: 20px;
 }
