@@ -14,7 +14,7 @@ main{
 }
 
 .about-section{
-    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    background: url(../img/AboutUs/about-us.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -52,9 +52,12 @@ main{
 }
 
 .whyus .about-section{
-    background: url(https://img.freepik.com/free-vector/hand-drawn-flat-design-international-trade_23-2149154534.jpg?w=996&t=st=1695322002~exp=1695322602~hmac=9cd80ab3c50a237cad2a60d75fc30fbed7c5a77418c50faf0e58cce38542d7f7) no-repeat right;
+    background: url(../img/AboutUs/whyus.jpg) no-repeat right;
 }
 
+.key-feature .about-section{
+    background: url(../img/AboutUs/key-feature.jpg) no-repeat left;
+}
 .whyus .inner-container{
     float: left;
 }

@@ -10,9 +10,6 @@
 }
 
 
-
-
-
 /* Main Part */
 main{
     min-height: calc(100vh - 50px);
@@ -166,7 +163,7 @@ main{
 }
 
 .about-section{
-    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    background: url(../img/AboutUs/about-us.jpg) no-repeat left;
     background-size: 60%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -235,4 +232,11 @@ main{
     .inner-container{
         padding: 40px;
     }
-}	
+}
+
+@media screen and (max-width:400px){
+  .service{ 
+    width: 100vw;
+    height: calc(100vw*0.64);
+}
+}
